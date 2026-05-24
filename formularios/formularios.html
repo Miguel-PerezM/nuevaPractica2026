@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="" method="post">
+        <P>
+            <input type="text" placeholder="Nombre" name="nombre">
+        </P>
+        <P>
+            <input type="text" placeholder="Apellido" name="apellido">
+        </P>
+        <P>
+            <input type="email" placeholder="miguel@gmail.com" name="correo">
+        </P>
+        <P>
+            <input type="number" placeholder="12345678" name="telefono">
+        </P>
+        <P>
+            <input type="date" placeholder="fecha de nacimiento" name="fechaDeNacimiento">
+        </P>
+        <p>Genero</p>
+        <p>Masculino
+            <label for="">
+                <input type="radio" name="genero" name="masculino">
+            </label>
+        </p>
+        <p>Femenino
+            <label for="">
+                <input type="radio" name="genero" value="femenino">
+            </label>
+        </p>
+        <p>Paises</p>
+        <p>
+            <select name="pais" id="">
+                <option value="" selected>seleccione un pais</option>
+                <option value="peru">Perú</option>
+                <option value="arge">Argentina</option>
+                <option value="chil">Chile</option>
+                <option value="bras">Brasil</option>
+            </select>
+        </p>
+        <p>Cursos</p>
+        <p>HTML<input type="checkbox" name="curso01" value="HTML"></p>
+        <p>CSS <input type="checkbox" name="curso02" value="CSS"></p>
+        <p>JavaScrips <input type="checkbox" name="curso03" value="JavaScrips"></p>
+        <p>Python <input type="checkbox" name="curso04" value="Python"></p>
+    </form>
+    
+</body>
+</html>
