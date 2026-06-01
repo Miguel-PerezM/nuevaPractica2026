@@ -1,3 +1,30 @@
+/* seleccion por elemento*/
+h1 {
+     background-color: yellow;
+    width: 600px;
+    border: 1px solid red;
+    height: 50px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.pais:hover {
+font-size: 40px;
+color: blue;
+}
+
+.departamentos:active{
+    font-size: 20px;
+    color: red;
+}
+
+.ciudades:focus{
+    font-size: 50px;
+    color: green;
+}
+/*
 .fondo {
     background-color: yellow;
-}
+    width: 300px;
+    height: 100px;
+} 
