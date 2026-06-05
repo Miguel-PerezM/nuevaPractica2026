@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer {
+  border: 1px solid blue;
+  width: 20%;
+  /*height: 70%; */
+  background: white;
+}
+
+img {
+  border: 3px solid yellow;
+  width: 90%;
+  margin: 5%;
+}
+h1 {
+  /*border: 3px solid grey; */
+  margin: 0 5%;
+ 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4em;
+}
+p {
+  border: 3px solid green;
+  margin: 0 5%;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
